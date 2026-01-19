@@ -18,4 +18,10 @@ fn main() {
 
     let remainder = 43 % 5;
     println!("the remainder is {remainder}");
+
+    let tuple = (500, 6.4, 1);
+
+    let (x, _, _) = tuple;
+
+    println!("the valus of the x is {x}")
 }
